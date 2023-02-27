@@ -56,6 +56,11 @@ let processorLabelsArray;
 let currentClockSpeed;
 
 /**
+ * CPU temperature
+ */
+let currentCpuTemp;
+
+/**
  * Used to hold values tens of processor usage
  */
 let ramLabelsArray;

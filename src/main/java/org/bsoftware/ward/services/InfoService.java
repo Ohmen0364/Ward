@@ -94,6 +94,8 @@ public class InfoService
 
         CentralProcessor centralProcessor = systemInfo.getHardware().getProcessor();
 
+        Sensors sensors = systemInfo.getHardware().getSensors();
+
         String name = centralProcessor.getProcessorIdentifier().getName();
         if (name.contains("@"))
         {
@@ -104,6 +106,7 @@ public class InfoService
         int coreCount = centralProcessor.getLogicalProcessorCount();
         processorDto.setCoreCount(coreCount + ((coreCount > 1) ? " Cores" : " Core"));
         processorDto.setClockSpeed(getConvertedFrequency(centralProcessor.getCurrentFreq()));
+	processorDto.setCpuTemp(sensors.getCpuTemperature());
 
         String BitDepthPrefix = centralProcessor.getProcessorIdentifier().isCpu64bit() ? "64" : "32";
         processorDto.setBitDepth(BitDepthPrefix + "-bit");

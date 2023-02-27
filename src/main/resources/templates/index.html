@@ -34,6 +34,7 @@
                             <div class = "label-hw-info">
                                 <div class = "hw-type">Processor</div>
                                 <div class = "hw-name" th:text = "${info.processor.name}"></div>
+				<a id = "currentCpuTemp" class = "four" th:text = "${info.processor.cpuTemp}"></a><sup>o</sup>C
                             </div>
                         </div>
                         <div class = "usage">

@@ -32,4 +32,8 @@ public class ProcessorDto
      * Processor architecture field
      */
     private String bitDepth;
+    /**
+     * Processor CPU temperature
+     */
+    private double cpuTemp;
 }
