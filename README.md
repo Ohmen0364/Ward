@@ -41,7 +41,7 @@ Ward works nice on all popular operating systems, because it uses [OSHI](https:/
 
 - Before:
 
-![image](https://user-images.githubusercontent.com/88158708/222082395-80db7544-1017-4d07-929e-3d2ea859b9e5.png)
+![image](https://user-images.githubusercontent.com/88158708/222082968-00208651-7ef2-4ff2-93fa-15f4c125e13c.png)
 
 - After:
 
