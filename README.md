@@ -35,3 +35,14 @@ Ward works nice on all popular operating systems, because it uses [OSHI](https:/
     • Download latest .jar from releases section
     • Execute jar on Windows or Linux with administrative rights
     • Enter localhost:4000 and set up application
+
+
+### Processor infomation
+
+- Before:
+
+![image](https://user-images.githubusercontent.com/88158708/222082395-80db7544-1017-4d07-929e-3d2ea859b9e5.png)
+
+- After:
+
+![image](https://user-images.githubusercontent.com/88158708/222082484-8497efeb-54d4-48eb-bc5a-652d25efa40e.png)
